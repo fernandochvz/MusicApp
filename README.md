@@ -52,4 +52,5 @@ MongoDB
 Last.fm API
 Bootstrap
 
-
+## Course
+This is done for the course Full Stack -sovelluskehitys TO00BS65-3006, Project 2 - Create a WEB application using REST API
