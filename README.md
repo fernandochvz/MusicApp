@@ -44,13 +44,5 @@ node index.js
 4. Saved albums can be seen under Stored Albums
 5. Edit or delete albums in your personal library as desired
 
-## Technologies Used
-
-Node.js
-Express
-MongoDB
-Last.fm API
-Bootstrap
-
 ## Course
 This is done for the course Full Stack -sovelluskehitys TO00BS65-3006, Project 2 - Create a WEB application using REST API
