@@ -1,0 +1,49 @@
+body {
+    background-color: #f8f9fa;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin-top: 2rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #search-results-container {
+    margin-top: 2rem;
+  }
+  
+  #search-results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+  }
+  
+  .album-buttons {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  
