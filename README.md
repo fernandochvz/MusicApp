@@ -11,8 +11,11 @@ View stored albums
 
 ## Technologies Used
 Frontend: HTML, CSS, Bootstrap, JavaScript
+
 Backend: Node.js, Express.js, MongoDB
+
 APIs: LastFM API
+
 Libraries: Axios
 
 
