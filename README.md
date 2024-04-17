@@ -4,9 +4,13 @@ This is a web application for managing a music database. It allows users to sear
 ## Features
 
 Search for albums using the LastFM API
+
 Add new albums to the database
+
 Update existing album information
+
 Delete albums from the database
+
 View stored albums
 
 ## Technologies Used
