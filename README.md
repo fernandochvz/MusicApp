@@ -27,7 +27,7 @@ Libraries: Axios
 
 Clone the repository: 
 ```bash
-git clone https://github.com/fernandochvz/MusicApp.git
+clone https://github.com/fernandochvz/MusicApp.git
 ```
 Navigate to the project directory:
 ```bash
