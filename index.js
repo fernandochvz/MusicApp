@@ -5,6 +5,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const path = require("path");
 const axios = require("axios");
+require('dotenv').config();
 
 // Initialize Express app
 const app = express();
@@ -13,7 +14,7 @@ app.use(cors());
 
 // MongoDB URI and LastFM API key
 const MONGODB_URI =
-  process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/musicdb";
+  process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/Music.MusicApp";
 const LASTFM_API_KEY =
   process.env.LASTFM_API_KEY || "fcbdf5da1f5d312150845137d29db1bd";
 
