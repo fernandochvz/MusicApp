@@ -46,6 +46,7 @@ app.get("/", (req, res) => {
 });
 
 // API routes
+//Get albums
 app.get("/api/getall", async (req, res) => {
   try {
     const albums = await Album.find();
@@ -55,6 +56,7 @@ app.get("/api/getall", async (req, res) => {
   }
 });
 
+//Get a specific album by ID
 app.get("/api/:id", async (req, res) => {
   try {
     const album = await Album.findById(req.params.id);
@@ -64,6 +66,7 @@ app.get("/api/:id", async (req, res) => {
   }
 });
 
+//Add a new album
 app.post("/api/add", async (req, res) => {
   try {
     const album = new Album(req.body);
@@ -74,6 +77,7 @@ app.post("/api/add", async (req, res) => {
   }
 });
 
+//Update an existing album by ID
 app.put("/api/update/:id", async (req, res) => {
   try {
     const updatedAlbum = await Album.findByIdAndUpdate(
@@ -87,6 +91,7 @@ app.put("/api/update/:id", async (req, res) => {
   }
 });
 
+//Delete an album by ID
 app.delete("/api/delete/:id", async (req, res) => {
   try {
     await Album.findByIdAndDelete(req.params.id);
