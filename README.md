@@ -53,3 +53,8 @@ node index.js
 
 ## Course
 This is done for the course Full Stack -sovelluskehitys TO00BS65-3006, Project 2 - Create a WEB application using REST API
+
+## URLs
+Video: https://video.laurea.fi/media/Fullstack+Project+2+-+Music+App/0_2k45bccx
+
+Render: https://musicapp-ttcw.onrender.com
